@@ -1,13 +1,13 @@
 interface Person {
     firstName: string;
-    lastName: string;
+    //lastName: string;
     age: number; 
 }
 
 
 function savePerson (person:Person): void{
     console.log('saving::', person);
-    person.
+    person.lastName;
 }
 
 
